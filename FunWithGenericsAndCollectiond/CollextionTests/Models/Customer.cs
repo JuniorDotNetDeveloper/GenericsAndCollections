@@ -6,13 +6,7 @@ using System.Threading.Tasks;
 
 namespace CollextionTests.Models
 {
-    internal class Garage
+    class Customer
     {
-        public List<Car> CarList { get; set; }
-
-        public Garage()
-        {
-            CarList = new List<Car>();
-        }
     }
 }
