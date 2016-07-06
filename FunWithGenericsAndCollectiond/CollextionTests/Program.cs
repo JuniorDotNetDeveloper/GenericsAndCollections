@@ -18,8 +18,11 @@ namespace CollextionTests
             Car car4 = new Car(new Engine(EngineType.Benzin, 370, 2198, 450), "Ford", "Focus");
 
             Dictionary<Car, Customer> carCustomerDictionary = new Dictionary<Car, Customer>(new CarEqualityComparer());
+            carCustomerDictionary.Add(car1, new Customer());
 
-            Console.WriteLine(carCustomerDictionary[car1]);
+            Console.WriteLine(carCustomerDictionary[car1].FirstName);
+            Console.ReadLine();
+
         }
     }
 }
