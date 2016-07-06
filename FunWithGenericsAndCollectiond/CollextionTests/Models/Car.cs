@@ -13,9 +13,8 @@ namespace CollextionTests.Models
         Universal,
         Minivan
     }
-    class Car
+    class Car : Entity
     {
-        public int CarId { get; set; }
         public string Manufacturer { get; set; }
         public string Model { get; set; }
         public Engine Engine { get; set; }
@@ -32,6 +31,11 @@ namespace CollextionTests.Models
             Manufacturer = manufacturer;
             Model = model;
             FabrikDate = DateTime.Now;
+        }
+
+        public override string ToString()
+        {
+            return string.Format($"Manufacture: {Manufacturer}\nModel: {Model}\nModelBody: {ModelBody}\nEngine Power: {Engine.Hp}\n");
         }
     }
 }

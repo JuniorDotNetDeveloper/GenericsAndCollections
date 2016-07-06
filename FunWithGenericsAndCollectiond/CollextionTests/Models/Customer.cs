@@ -12,5 +12,12 @@ namespace CollextionTests.Models
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public List<Car> CarList { get; set; }
+
+        public Customer(string lastName, string firstName)
+        {
+            FirstName = firstName;
+            LastName = lastName;
+            CarList = new List<Car>();
+        }
     }
 }

@@ -6,11 +6,14 @@ using System.Threading.Tasks;
 
 namespace CollextionTests.Models
 {
-    class Sale
+
+    abstract class Entity
     {
-        public int SaleId { get; set; }
-        public int CustomerId { get; set; }
-        public int CarId { get; set; }
+        public int Id { get; set; }
+    }
+    class Sale : Entity
+    {
+        public Car car { get; set; }
 
         public Sale(Customer customer, Car car)
         {

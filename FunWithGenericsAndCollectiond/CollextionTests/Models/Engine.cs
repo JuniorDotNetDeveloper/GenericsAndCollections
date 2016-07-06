@@ -14,7 +14,6 @@ namespace CollextionTests.Models
 
     class Engine
     {
-        public int EngineId { get; set; }
         public EngineType EngType{ get; set; }
         public int Hp { get; private set; }
         public float Volume { get; private set; }

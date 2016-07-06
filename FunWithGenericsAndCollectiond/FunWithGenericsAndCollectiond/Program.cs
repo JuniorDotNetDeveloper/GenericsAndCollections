@@ -21,6 +21,7 @@ namespace FunWithGenericsAndCollectiond
             store.ChangeValues(0, 5);
 
             Console.WriteLine(store.Get(0));
+            Console.WriteLine(store.Get(4));
             Console.WriteLine(store.Get(5));
 
             Console.ReadLine();
