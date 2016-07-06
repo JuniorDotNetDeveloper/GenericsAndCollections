@@ -16,7 +16,6 @@ namespace CollextionTests
             Car car3 = new Car(new Engine(EngineType.Benzin, 140, 1898, 260), "BMW", "320");
             Car car4 = new Car(new Engine(EngineType.Benzin, 370, 2198, 450), "Ford", "Focus");
 
-            Dictionary
         }
     }
 }

@@ -9,12 +9,9 @@ namespace CollextionTests.Models
     class Sale
     {
         public int SaleId { get; set; }
-        public int CustomerId { get; set; }
-        public int CarId { get; set; }
+        public Customer CustomerId { get; set; }
+        public Car CarId { get; set; }
 
-        public Sale(Customer )
-        {
 
-        }
     }
 }
