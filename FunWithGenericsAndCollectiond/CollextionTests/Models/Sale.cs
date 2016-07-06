@@ -8,5 +8,10 @@ namespace CollextionTests.Models
 {
     class Sale
     {
+        public int SaleId { get; set; }
+        public Customer CustomerId { get; set; }
+        public Car CarId { get; set; }
+
+
     }
 }
