@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithGenericsAndCollectiond", "FunWithGenericsAndCollectiond\FunWithGenericsAndCollectiond.csproj", "{4007B6E3-87BF-4EE0-86E5-7F2F05E96C04}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollextionTests", "CollextionTests\CollextionTests.csproj", "{084BA907-643B-4B57-9650-E20E5B243801}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codea", "Codea\Codea.csproj", "{7430C071-4E54-4AC9-8B76-8E8452D358F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{4007B6E3-87BF-4EE0-86E5-7F2F05E96C04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4007B6E3-87BF-4EE0-86E5-7F2F05E96C04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4007B6E3-87BF-4EE0-86E5-7F2F05E96C04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{084BA907-643B-4B57-9650-E20E5B243801}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{084BA907-643B-4B57-9650-E20E5B243801}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{084BA907-643B-4B57-9650-E20E5B243801}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{084BA907-643B-4B57-9650-E20E5B243801}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7430C071-4E54-4AC9-8B76-8E8452D358F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7430C071-4E54-4AC9-8B76-8E8452D358F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7430C071-4E54-4AC9-8B76-8E8452D358F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7430C071-4E54-4AC9-8B76-8E8452D358F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
