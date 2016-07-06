@@ -34,8 +34,10 @@ namespace CollextionTests
             //carCustomerDictionary.Add(car7, cust4);
 
 
-            Array.Sort(carList.ToArray(), (_, __) => _.Manufacturer.CompareTo(__.Manufacturer));
-            Array.Sort(carCustomerDictionary.Keys.ToArray(), (x, y) => x.Engine.Hp.CompareTo(y.Engine.Hp));
+            //Array.Sort(carList.ToArray(), (_, __) => _.Manufacturer.CompareTo(__.Manufacturer));
+
+            Car[] calist = carCustomerDictionary.Keys.ToArray();
+            Array.Sort(carCustomerDictionary.Keys.ToArray(), (x, y) => x.Model.CompareTo(y.Model));
 
             foreach (var item in carCustomerDictionary.Keys)
             {
