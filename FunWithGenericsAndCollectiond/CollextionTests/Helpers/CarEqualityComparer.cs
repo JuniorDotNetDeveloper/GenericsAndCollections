@@ -18,7 +18,7 @@ namespace CollextionTests.Helpers
 
         public int GetHashCode(Car obj)
         {
-            return obj.Model.GetHashCode()
+            return obj.Model.GetHashCode() ^ obj.ModelBody.GetHashCode() ^ obj.Manufacturer.GetHashCode();
         }
     }
 }

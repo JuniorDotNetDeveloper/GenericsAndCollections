@@ -12,7 +12,7 @@ namespace CollextionTests.Models
         public int CustomerId { get; set; }
         public int CarId { get; set; }
 
-        public Sale(Customer )
+        public Sale(Customer customer, Car car)
         {
 
         }

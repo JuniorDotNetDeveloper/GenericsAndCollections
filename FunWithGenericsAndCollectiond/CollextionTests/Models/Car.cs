@@ -13,7 +13,7 @@ namespace CollextionTests.Models
         Universal,
         Minivan
     }
-    class Car : IEqualityComparer<Car>
+    class Car
     {
         public int CarId { get; set; }
         public string Manufacturer { get; set; }
@@ -32,18 +32,6 @@ namespace CollextionTests.Models
             Manufacturer = manufacturer;
             Model = model;
             FabrikDate = DateTime.Now;
-        }
-
-        public bool Equals(Car x, Car y)
-        {
-            return  x.Model.Equals(y.Model) 
-                    && x.Manufacturer.Equals(y.Manufacturer)
-                    && x.ModelBody.Equals(y.ModelBody);
-        }
-
-        public int GetHashCode(Car obj)
-        {
-            return obj.Model.GetHashCode() ^ obj.ModelBody.GetHashCode() ^ obj.Manufacturer.GetHashCode();
         }
     }
 }

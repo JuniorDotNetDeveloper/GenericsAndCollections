@@ -1,4 +1,5 @@
-﻿using CollextionTests.Models;
+﻿using CollextionTests.Helpers;
+using CollextionTests.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,7 +17,9 @@ namespace CollextionTests
             Car car3 = new Car(new Engine(EngineType.Benzin, 140, 1898, 260), "BMW", "320");
             Car car4 = new Car(new Engine(EngineType.Benzin, 370, 2198, 450), "Ford", "Focus");
 
-            Dictionary
+            Dictionary<Car, Customer> carCustomerDictionary = new Dictionary<Car, Customer>(new CarEqualityComparer());
+
+            Console.WriteLine(carCustomerDictionary[car1]);
         }
     }
 }
